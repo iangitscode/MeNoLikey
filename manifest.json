@@ -1,11 +1,20 @@
 {
-	"manifest_version": 2,
-	"name": "Me No Likey",
-	"version": "0.1",
-	"content_scripts":[
-		{
-		"matches": ["<all_urls>"],
-		"css": ["removeLike.css"]
-		}
-	]
+  "manifest_version": 2,
+  "name": "Me No Likey",
+  "version": "0.1",
+  "content_scripts":[
+    {
+    "matches": ["<all_urls>"],
+    "css": ["removeLike.css"]
+    }
+  ],
+  "icons":{
+    "16":"menolikey.png"
+  },
+  "background":{
+    "scripts":["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "menolikey.png"
+  }
 }
