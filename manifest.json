@@ -9,12 +9,12 @@
     }
   ],
   "icons":{
-    "16":"menolikey.png"
+    "16":"icon.png"
   },
   "background":{
     "scripts":["background.js"]
   },
   "browser_action": {
-    "default_icon": "menolikey.png"
+    "default_icon": "icon.png"
   }
 }
